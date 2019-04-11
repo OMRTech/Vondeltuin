@@ -1,12 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <!-- The following application demonstrates the HTML JavaScript Web Dashboard.  -->
     <!-- To learn how to create the current application, see https://docs.devexpress.com/Dashboard/119109/getting-started/build-web-dashboard-applications/create-an-html-javascript-dashboard-application-global-namespaces -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Vondeltuin | OMRT</title>
-    <link rel="icon" type="image/png" href="icons/Icon_webiste.png" />
+    <title>HTML JavaScript Web Dashboard Application | DevExpress</title>
+    <link rel="icon" type="image/png" href="icons/favicon.ico" />
 
     <link href="styles/dx.common.css" rel="stylesheet" />
     <link href="styles/dx.light.css" rel="stylesheet" />
@@ -45,7 +45,20 @@
 
     <script>
         window.onload = function() {
-
+            showDemoPopup();
+            // Adds required HTML resources to the DOM.
+            DevExpress.Dashboard.ResourceManager.embedBundledResources();
+            // Creates a new Web Dashboard control with specified settings.
+            var dashboardControl = new DevExpress.Dashboard.DashboardControl(document.getElementById("container"), {
+                // Configures an URL where the Web Dashboard's server-side is hosted.
+                endpoint: "https://demos.devexpress.com/services/dashboard/api",
+                workingMode: "Viewer",
+                extensions: {
+                    "dashboard-panel": function(control) { return new DevExpress.Dashboard.DashboardPanelExtension(control); }
+                }
+            });
+            // Renders the created dashboard.
+            dashboardControl.render();
         }
     </script>
     <!-- Google Tag Manager -->
