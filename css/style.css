@@ -17,18 +17,21 @@ p{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* nav menu*/
 ul{
 
 }
 
 ul li {
   list-style: none;
+  display: inline-block;
 }
 
 ul li a {
-
+  stext-decoration: none;
 }
 
+/*dashboard*/
 .container {
   padding-left: 15px;
   padding-right: 15px;
