@@ -25,6 +25,7 @@
   position: absolute;
   width: 100px;
   height: 200px;
+  left: -100px;
   border-radius: 100px 0 0 100px;
   -webkit-transform-origin: right center;
           transform-origin: right center;
