@@ -123,32 +123,3 @@
       width: 1170px;
     }
   }
-
-.title {
-  grid-area: title;
-}
-
-.header {
-  grid-area: header;
-}
-
-.sidebar {
-  grid-area: sidebar;
-}
-
-.content {
-  grid-area: content;
-  align-self: center;
-}
-
-.footer {
-  grid-area: footer;
-}
-
-.grid div:nth-child(even){
-  background-color: red;
-}
-
-.grid div:nth-child(odd){
-  background-color: green;
-}
