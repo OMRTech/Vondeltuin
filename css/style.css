@@ -17,6 +17,18 @@ p{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+ul{
+
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
