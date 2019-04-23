@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* .container {
+.container {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -14,7 +14,7 @@
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
-  } */
+  }
 
   .grid {
   display: grid;
