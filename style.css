@@ -3,10 +3,10 @@
   padding: 0;
 }
 
-.grid div.nth-child(even){
+.grid div:nth-child(even){
   background-color: red;
 }
 
-.grid div.nth-child(odd){
+.grid div:nth-child(odd){
   background-color: green;
 }
