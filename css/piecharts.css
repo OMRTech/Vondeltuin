@@ -1,14 +1,14 @@
 .wrapper {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   display: inline-block;
   position: relative;
 }
 .pie {
   position: absolute;
-  width: 100px;
-  height: 200px;
-  left: 100px;
+  width: 50px;
+  height: 100px;
+  left: 50px;
   -webkit-transform-origin: left center;
           transform-origin: left center;
 }
@@ -23,17 +23,17 @@
 .pie:before {
   content: "";
   position: absolute;
-  width: 100px;
-  height: 200px;
-  left: -100px;
-  border-radius: 100px 0 0 100px;
+  width: 50px;
+  height: 100px;
+  left: -50px;
+  border-radius: 50px 0 0 50px;
   -webkit-transform-origin: right center;
           transform-origin: right center;
   z-index: 0;
 }
 .pie.big {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   left: 0;
   -webkit-transform-origin: center center;
           transform-origin: center center;
@@ -51,10 +51,10 @@
   border-radius: 0 100px 100px 0;
 }
 .pie.over {
-  width: 160px;
-  height: 160px;
-  left: 20px;
-  top: 20px;
+  width: 80px;
+  height: 80px;
+  left: 10px;
+  top: 10px;
   background-color: #fff;
   border-radius: 80px;
   z-index: 2;
