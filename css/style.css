@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 36px;
+  font-family: abel, arial, sans-serif;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
