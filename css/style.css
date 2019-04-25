@@ -62,6 +62,9 @@ ul li a {
   padding: 0 20px;
 }
 .button{
+  background-color: #fff;
+  text-decoration: none;
+  border: none;
   font-size: 24px;
   color: #1a2659;
   font-family: Arial, Helvetica, sans-serif;
