@@ -65,6 +65,11 @@ ul li a {
   margin-top: 15px;
 }
 
+.column{
+  float: left;
+  width: 50%;
+}
+
 /*dashboard*/
 .container {
   padding-left: 15px;
