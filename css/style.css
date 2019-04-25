@@ -67,12 +67,12 @@ ul li a {
 
 .column1{
   float: left;
-  width: auto;
+  width: 50%;
 }
 
 .column2{
-  float: right;
-  width: auto;
+  float: left;
+  width: 50%;
 }
 
 /*dashboard*/
