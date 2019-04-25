@@ -49,7 +49,7 @@ ul{
 ul li {
   list-style: none;
   display: inline-block;
-  float: left;
+  float: center;
   line-height: 100px;
 }
 
@@ -59,7 +59,7 @@ ul li a {
   color: #1a2659;
   font-size: 18px;
   font-family: Arial;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 .button{
   background-color: #fff;
