@@ -37,8 +37,8 @@ nav{
 
 nav a{
   float: left;
-  width: 250px;
-  height: 150px;
+  width: 200px;
+  height: 100px;
 }
 
 /* nav menu*/
@@ -49,7 +49,7 @@ ul{
 ul li {
   list-style: none;
   display: inline-block;
-  float: center;
+  float: left;
   line-height: 100px;
 }
 
