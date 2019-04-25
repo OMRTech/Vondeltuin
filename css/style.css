@@ -30,7 +30,7 @@ nav{
 
 /* nav menu*/
 ul{
-
+  text-align: center;
 }
 
 ul li {
@@ -41,7 +41,7 @@ ul li {
 }
 
 ul li a {
-  display: block;
+  display: inline;
   text-decoration: none;
   font-size: 14px;
   font-family: Arial;
