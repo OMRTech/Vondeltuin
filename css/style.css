@@ -72,8 +72,8 @@ ul li a {
 
 .column{
   float: left;
-  width: 100px;
-  padding: 0 15px; 
+  width: auto;
+  padding: 0 15px;
 }
 
 /*dashboard*/
