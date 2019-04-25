@@ -10,9 +10,11 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   <script type="text/javascript" src="./lib/jquery-1.11.1.min.js"></script>
   <script>
+  $(document).ready(function(){
       $(".show").click(function() {
         $(".drop").toggle();
       });
+    });
   </script>
 </head>
   <body>
@@ -83,12 +85,12 @@
       <div class="comfort">
         <div class="show">
         <h1><p>Comfort</p></h1>
+        </div>
         <div class="wrapper">
           <div class="pie start-0 end-25"></div>
           <div class="pie big start-25 end-75"></div>
             <div class="pie over"><span>25%</span></div>
       </div>
-    </div>
       <div class="drop" style="display: none;"> hier text </div>
       </div>
 
