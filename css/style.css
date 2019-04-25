@@ -37,7 +37,7 @@ nav{
 
 nav a{
   float: left;
-  width: 200px;
+  width: 150px;
   height: 100px;
 }
 
@@ -59,7 +59,7 @@ ul li a {
   color: #1a2659;
   font-size: 18px;
   font-family: Arial;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 .button{
   background-color: #fff;
