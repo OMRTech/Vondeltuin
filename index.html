@@ -10,26 +10,28 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script>
-    var data = d3.csv("/data/employees.csv", function(data) {
+    d3.csv("/data/employees.csv", function(data) {
           console.log(data);
-        });
-    var raam = data.object(1,1);
-    var matmuur = data[1, 2];
-    var matvloer = data[1, 3];
-    var matdak = data[1, 4];
-    var vent = data[1, 5];
-    var rcmuur = data[1, 6];
-    var rcvloer = data[1, 7];
-    var rcdak = data[1, 8];
 
-    document.getElementById('raam').innerHTML = raam;
-    document.getElementById('matmuur').innerHTML = matmuur;
-    document.getElementById('matvloer').innerHTML = matvloer;
-    document.getElementById('matdak').innerHTML = matdak;
-    document.getElementById('vent').innerHTML = vent;
-    document.getElementById('rcmuur').innerHTML = rcmuur;
-    document.getElementById('rcvloer').innerHTML = rcvloer;
-    document.getElementById('rcdak').innerHTML = rcdak;
+          var raam = data.object(1,1);
+          var matmuur = data.object[1, 2];
+          var matvloer = data.object[1, 3];
+          var matdak = data.object[1, 4];
+          var vent = data.object[1, 5];
+          var rcmuur = data.object[1, 6];
+          var rcvloer = data.object[1, 7];
+          var rcdak = data.object[1, 8];
+
+          document.getElementById('raam').innerHTML = raam;
+          document.getElementById('matmuur').innerHTML = matmuur;
+          document.getElementById('matvloer').innerHTML = matvloer;
+          document.getElementById('matdak').innerHTML = matdak;
+          document.getElementById('vent').innerHTML = vent;
+          document.getElementById('rcmuur').innerHTML = rcmuur;
+          document.getElementById('rcvloer').innerHTML = rcvloer;
+          document.getElementById('rcdak').innerHTML = rcdak;
+        });
+
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script>
