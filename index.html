@@ -10,11 +10,9 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script>
-  d3.csv("/data/vbdata.csv", function(data) {
-      for (var i = 0; i < data.length; i++) {
-          console.log(data);
-      }
-  });
+    var data = d3.csv("/data/vbdata.csv", function(data) {
+            console.log(data);
+    });
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script>
@@ -40,7 +38,7 @@
   <body>
 
     <nav>
-      <a href="http://omrt.tech"><img class="logo" src="./images/Artboard 1.png"></a>
+      <a href="http://omrt.tech"><img class="logo" src="./images/OMRT_Logo_Vondeltuin.png"></a>
       <ul>
         <!-- # veranderen in pagina.html DIT IS VARIANT 3!!!  -->
         <li><a href="index.html">Variant 1</a></li>
@@ -72,7 +70,7 @@
           Rc-waarde dak: </p>
         </div>
         <div class="column2" id="info">
-          <p>45</br>
+          <p><script>data</script></br>
           Rammed Brick</br>
           Beton</br>
           Hout</br>
