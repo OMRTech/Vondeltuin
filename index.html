@@ -13,12 +13,12 @@
     d3.csv("/data/vbdata.csv", function(error, data) {
 
         d3.select("body")
-      .selectAll("p")
+      .selectAll(".waarde")
       .data(data)
       .enter()
-      .append("p")
+      .append(".waarde")
       .text(function(d) {
-          return d.name + ", " + d.location;
+          return ", ";
       });
 
     });
@@ -71,35 +71,35 @@
         <table id="table">
           <tr>
             <th>Raampercentage</th>
-            <th>45</th>
+            <th class="waarde">45</th>
           </tr>
           <tr>
             <th>Materiaal muur</th>
-            <th>Rammed Brick</th>
+            <th class="waarde">Rammed Brick</th>
           </tr>
           <tr>
             <th>Materiaal vloer</th>
-            <th>Beton</th>
+            <th class="waarde">Beton</th>
           </tr>
           <tr>
             <th>Materiaal dak</th>
-            <th>Hout</th>
+            <th class="waarde">Hout</th>
           </tr>
           <tr>
             <th>Ventilatietype</th>
-            <th>Hybride</th>
+            <th class="waarde">Hybride</th>
           </tr>
           <tr>
             <th>Rc-waarde muur</th>
-            <th>3,15</th>
+            <th class="waarde">3,15</th>
           </tr>
           <tr>
             <th>Rc-waarde vloer</th>
-            <th>3,17</th>
+            <th class="waarde">3,17</th>
           </tr>
           <tr>
             <th>Rc-waarde dak</th>
-            <th>3,19</th>
+            <th class="waarde">3,19</th>
           </tr>
         </table>
       </div>
