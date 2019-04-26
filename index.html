@@ -11,7 +11,7 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script>
     d3.csv("/data/employees.csv", function(data) {
-          console.log(data);
+          console.log(data[0]);
 
           var raam = data.object(1,1);
           var matmuur = data.object[1, 2];
