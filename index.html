@@ -10,7 +10,7 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script>
-    d3.csv("/data/vbdata.csv", function(data) {
+    d3.csv("/data/employees.csv", function(data) {
           console.log(data);
 
           var raam = data.object(1,1);
@@ -80,7 +80,7 @@
         <h1><p>Variant 1</p></h1>
         <table id="table">
           <tr>
-            <th>Rampercentage</th>
+            <th>Raampercentage</th>
             <th id="raam"></th>
           </tr>
           <tr>
@@ -161,8 +161,8 @@
         <div class="show4">
           <h1><p>Water</p></h1>
           <div class="wrapper">
-            <div class="pie start-0 end-25"></div>
-            <div class="pie big start-25 end-75"></div>
+            <div class="pie start-0 end-35"></div>
+            <div class="pie big start-35 end-65"></div>
             <div class="pie over"><span>25%</span></div>
           </div>
         </div>
