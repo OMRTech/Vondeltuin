@@ -10,10 +10,18 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script>
-    var data = d3.csv("/data/vbdata.csv", function(data) {
-            console.log(data);
+    d3.csv("/data/vbdata.csv", function(error, data) {
+
+        d3.select("body")
+      .selectAll("p")
+      .data(data)
+      .enter()
+      .append("p")
+      .text(function(d) {
+          return d.name + ", " + d.location;
+      });
+
     });
-  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script>
   $(document).ready(function(){
