@@ -9,6 +9,13 @@
   <title>Vondeltuin | OMRT</title>
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script>
+  d3.csv("/data/employees.csv", function(data) {
+      for (var i = 0; i < data.length; i++) {
+          console.log(data);
+      }
+  });
+  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script>
   $(document).ready(function(){
