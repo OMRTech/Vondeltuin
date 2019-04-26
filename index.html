@@ -13,7 +13,7 @@
     var data = d3.csv("/data/employees.csv", function(data) {
           console.log(data);
         });
-    var raam = data[1, 1];
+    var raam = data.object(1,1);
     var matmuur = data[1, 2];
     var matvloer = data[1, 3];
     var matdak = data[1, 4];
