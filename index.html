@@ -10,18 +10,26 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script>
-    d3.csv("/data/vbdata.csv", function(error, data) {
+    var data = d3.csv("/data/employees.csv", function(data) {
+          console.log(data);
+        });
+    var raam = data[1, 1];
+    var matmuur = data[1, 2];
+    var matvloer = data[1, 3];
+    var matdak = data[1, 4];
+    var vent = data[1, 5];
+    var rcmuur = data[1, 6];
+    var rcvloer = data[1, 7];
+    var rcdak = data[1, 8];
 
-        d3.select("body")
-      .selectAll(".waarde")
-      .data(data)
-      .enter()
-      .append(".waarde")
-      .text(function(d) {
-          return ", ";
-      });
-
-    });
+    document.getElementById('raam').innerHTML = raam;
+    document.getElementById('matmuur').innerHTML = matmuur;
+    document.getElementById('matvloer').innerHTML = matvloer;
+    document.getElementById('matdak').innerHTML = matdak;
+    document.getElementById('vent').innerHTML = vent;
+    document.getElementById('rcmuur').innerHTML = rcmuur;
+    document.getElementById('rcvloer').innerHTML = rcvloer;
+    document.getElementById('rcdak').innerHTML = rcdak;
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script>
@@ -70,36 +78,36 @@
         <h1><p>Variant 1</p></h1>
         <table id="table">
           <tr>
-            <th>Rampercentage</th>
-            <th class="waarde"></th>
+            <th>Raampercentage</th>
+            <th id="raam"></th>
           </tr>
           <tr>
             <th>Materiaal muur</th>
-            <th class="waarde"></th>
+            <th id="matmuur"></th>
           </tr>
           <tr>
             <th>Materiaal vloer</th>
-            <th class="waarde"></th>
+            <th id="matvloer"></th>
           </tr>
           <tr>
             <th>Materiaal dak</th>
-            <th class="waarde"></th>
+            <th id="matdak"></th>
           </tr>
           <tr>
             <th>Ventilatietype</th>
-            <th class="waarde"></th>
+            <th id="vent"></th>
           </tr>
           <tr>
             <th>Rc-waarde muur</th>
-            <th class="waarde"></th>
+            <th id="rcmuur"></th>
           </tr>
           <tr>
             <th>Rc-waarde vloer</th>
-            <th class="waarde"></th>
+            <th id="rcvloer"></th>
           </tr>
           <tr>
             <th>Rc-waarde dak</th>
-            <th class="waarde"></th>
+            <th id="rcdak"></th>
           </tr>
         </table>
       </div>
