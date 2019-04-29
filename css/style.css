@@ -153,9 +153,13 @@ ul li a#title {
   grid-row: 3;
 }
 
-.energie .show1 .drop1 ul  li{
+.energie .show1 .drop1 ul{
   list-style: none;
   display: inline-block;
+  float: left;
+}
+
+.energie .show1 .drop1 ul li{
   float: left;
 }
 
