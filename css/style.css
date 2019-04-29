@@ -153,25 +153,29 @@ ul li a#title {
 .energie {
   grid-column: 1;
   grid-row: 3;
+  float: center;
 }
 
 .materiaal {
   grid-column: 2;
   grid-row: 3;
-  position: relative;
+  float: center;
 }
 
 .comfort {
   grid-column: 3;
   grid-row: 3;
+  float: center;
 }
 .water {
   grid-column: 4;
   grid-row: 3;
+  float: center;
 }
 .proces {
   grid-column: 5;
   grid-row: 3;
+  float: center;
 }
 
 }
