@@ -154,7 +154,7 @@ ul li a#title {
   grid-row: 3;
 }
 
-.energie .show1 .drop1 ul{
+/* .energie .show1 .drop1 ul{
   display: block;
   float: left;
 }
@@ -163,7 +163,7 @@ ul li a#title {
   float: left;
   list-style: none;
   padding: 8px 14px;
-}
+} */
 
 .materiaal {
   grid-column: 2;
