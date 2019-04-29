@@ -32,7 +32,8 @@ p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #696969;
-  padding: 24px 14px;
+  text-align: left;
+  float: left;
 }
 
 #table{
@@ -153,17 +154,6 @@ ul li a#title {
   grid-column: 1;
   grid-row: 3;
 }
-
-/* .energie .show1 .drop1 ul{
-  display: block;
-  float: left;
-}
-
-.energie .show1 .drop1 ul li{
-  float: left;
-  list-style: none;
-  padding: 8px 14px;
-} */
 
 .materiaal {
   grid-column: 2;
