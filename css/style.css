@@ -71,6 +71,7 @@ ul li a {
   color: #1a2659;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 5px;
+  float: left;
 }
 
 ul li a#title {
