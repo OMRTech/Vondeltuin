@@ -28,10 +28,11 @@ p{
 } */
 
 #info{
+  display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #696969;
-  float: center;
+  padding: 24px 14px;
 }
 
 #table{
@@ -154,13 +155,14 @@ ul li a#title {
 }
 
 .energie .show1 .drop1 ul{
-  list-style: none;
-  display: inline-block;
+  display: block;
   float: left;
 }
 
 .energie .show1 .drop1 ul li{
   float: left;
+  list-style: none;
+  padding: 8px 14px;
 }
 
 .materiaal {
