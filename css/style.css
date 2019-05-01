@@ -52,12 +52,6 @@ table tr th{
   background-color: #fff;
 }
 
-@media(max-width: 1200px) {
-  nav {
-    grid-template-columns: 100%;
- }
-}
-
 .logo1{
   grid-column: 1;
   display: inline-block;
@@ -110,7 +104,7 @@ ul li a {
 }
 
 @media (min-width: 1200px) {
-  .container {
+  nav {
     width: 1170px;
   }
 
