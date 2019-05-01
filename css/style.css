@@ -1,5 +1,5 @@
 :root {
-  --grid-gap: 5px;
+  --grid-gap: 0;
 }
 
 * {
@@ -112,7 +112,7 @@ ul li a {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1200px;
+    width: 1170px;
   }
 
 .grid {
