@@ -72,6 +72,9 @@ nav .middle{
 
 nav .right{
   grid-column: 3;
+  vertical-align: top;
+  width: 50px;
+  height: 150px;
 }
 
 /* nav a{
@@ -112,19 +115,19 @@ nav .right a#title {
 }
 
 
-.logo1{
+/* .logo1{
   display: inline-block;
   vertical-align: top;
   width: 250px;
   height: 150px;
-}
+} */
 
-.logo2{
+/* .logo2{
   display: inline-block;
   vertical-align: top;
   width: 50px;
   height: 150px;
-}
+} */
 
 .column1{
   float: left;
