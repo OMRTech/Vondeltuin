@@ -52,6 +52,33 @@ table tr th{
   background-color: #fff;
 }
 
+.logo1{
+  grid-column: 1;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  width: 250px;
+  height: 150px;
+}
+
+.middle {
+  grid-column: 2;
+}
+
+.logo2{
+  grid-column: 3;
+}
+
+#title {
+  display: inline;
+  text-decoration: none;
+  text-align: left;
+  font-size: 32px;
+  color: #454545;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 350px;
+}
+
 ul{
   text-align: right;
 }
@@ -74,23 +101,9 @@ ul li a {
   float: left;
 }
 
-ul li a#title {
-  display: inline;
-  text-decoration: none;
-  text-align: left;
-  font-size: 32px;
-  color: #454545;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0 350px;
-}
 
-.logo{
-  display: inline-block;
-  vertical-align: top;
-  float: left;
-  width: 250px;
-  height: 150px;
-}
+
+
 
 .column1{
   float: left;
