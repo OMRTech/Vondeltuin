@@ -111,7 +111,7 @@ ul li a {
 }
 
 @media (min-width: 1200px) {
-  .container {
+  body {
     width: 1170px;
   }
 
