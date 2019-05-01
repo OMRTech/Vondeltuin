@@ -54,24 +54,16 @@ ul li {
   float: center;
   line-height: 150px;
 }
+
 ul li a {
   display: inline;
   text-decoration: none;
   font-size: 18px;
   color: #1a2659;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 0 5px;
-  float: left;
+  padding: 0 10px;
 }
-ul li a#title {
-  display: inline;
-  text-decoration: none;
-  text-align: left;
-  font-size: 32px;
-  color: #454545;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0 350px;
-}
+
 .logo{
   display: inline-block;
   vertical-align: top;
