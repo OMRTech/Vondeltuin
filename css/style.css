@@ -55,7 +55,7 @@ ul li {
   line-height: 150px;
 }
 
-ul li#logo1{
+/* ul li#logo1{
   float: left;
   padding: 0 100px;
 }
@@ -63,7 +63,7 @@ ul li#logo1{
 ul li#logo2{
   float: right;
   padding: 0 100px;
-}
+} */
 
 ul li a {
   display: inline;
