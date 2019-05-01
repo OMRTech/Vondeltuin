@@ -40,8 +40,17 @@ table tr th{
 }
 
 /* nav menu*/
+ul{
 
+}
 
+ul li{
+  list-style: none;
+}
+
+ul li a{
+
+}
 
 .logo{
   display: inline-block;
