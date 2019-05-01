@@ -52,11 +52,9 @@ table tr th{
   background-color: #fff;
 }
 
-@media screen and (max-width: 1500px) {
+@media(max-width: 1500px) {
   nav {
     grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-gap: 1em;
  }
 }
 
