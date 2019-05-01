@@ -40,16 +40,16 @@ table tr th{
 }
 
 /* nav menu*/
-nav{
+ nav .topbar{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1em;
+  align-items: center;
+  text-align: center;
   width: 100%;
   height: 150px;
   background-color: #fff;
-}
-
-nav a{
-  float: left;
-  width: 100px;
-  height: 125px;
 }
 
 ul{
@@ -87,6 +87,7 @@ ul li a#title {
 .logo{
   display: inline-block;
   vertical-align: top;
+  float: left;
   width: 250px;
   height: 150px;
 }
