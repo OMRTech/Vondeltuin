@@ -56,6 +56,7 @@ table tr th{
   .topnav {
     float: none;
     width: 100%;
+    grid-gap: var(--grid-gap);
   }
 }
 
