@@ -112,10 +112,17 @@ nav{
 }
 
 
-.logo{
+.logo1{
   display: inline-block;
   vertical-align: top;
   width: 250px;
+  height: 150px;
+}
+
+.logo2{
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
   height: 150px;
 }
 
