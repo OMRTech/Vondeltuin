@@ -42,8 +42,6 @@ nav{
 }
 nav a{
   float: left;
-  width: 100px;
-  height: 125px;
 }
 ul{
   text-align: center;
