@@ -59,18 +59,18 @@ nav{
     grid-gap: 1em;
  }
 
-.left{
+nav .left{
   grid-column: 1;
   float: left;
   width: 100px;
   height: 125px;
 }
 
-.middle{
+nav .middle{
   grid-column: 2;
 }
 
-.right{
+nav .right{
   grid-column: 3;
 }
 
@@ -80,18 +80,18 @@ nav{
   height: 125px;
 } */
 
-.middle ul{
+nav .middle ul{
   text-align: right;
 }
 
-.middle ul li {
+nav .middle ul li {
   list-style: none;
   display: inline-block;
   float: center;
   line-height: 150px;
 }
 
-.middle ul li a {
+nav .middle ul li a {
   display: inline;
   text-decoration: none;
   font-size: 14px;
@@ -101,7 +101,7 @@ nav{
   float: left;
 }
 
-.right a#title {
+nav .right a#title {
   display: inline;
   text-decoration: none;
   text-align: left;
