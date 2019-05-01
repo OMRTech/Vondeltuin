@@ -80,7 +80,7 @@ table tr th{
 }
 
 ul{
-  text-align: right;
+  text-align: center;
 }
 
 ul li {
@@ -90,29 +90,14 @@ ul li {
   line-height: 150px;
 }
 
-
 ul li a {
-  display: inline;
+  display: block;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 18px;
   color: #1a2659;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 5px;
   float: left;
-}
-
-
-
-
-
-.column1{
-  float: left;
-  width: 50%;
-}
-
-.column2{
-  float: left;
-  width: 50%;
 }
 
 /*dashboard*/
