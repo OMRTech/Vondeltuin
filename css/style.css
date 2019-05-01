@@ -72,6 +72,7 @@ ul li a {
 .logo2{
   display: inline-block;
   vertical-align: top;
+  float: left;
   width: 79px;
   height: 150px;
 }
