@@ -12,10 +12,10 @@
   -webkit-transform-origin: left center;
           transform-origin: left center;
 }
-.pie:nth-of-type(1):before,
+/* .pie:nth-of-type(1):before,
 .pie:nth-of-type(1):after {
   background-color: #1a2659;
-}
+} */
 
 #red1{
   color: #ff0000;
