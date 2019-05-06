@@ -18,7 +18,7 @@ p{
 #info{
   display: block;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #696969;
   text-align: left;
   float: left;
@@ -26,7 +26,7 @@ p{
 }
 #table{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #696969;
   width: 100%;
 }
@@ -40,7 +40,7 @@ table tr th#done{
   text-align: left;
   width: 200px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #1a2659;
 }
 
