@@ -29,17 +29,18 @@
   color: #00cc00;
 }
 
-.pie#red2{
+.pie#red2:nth-of-type(1):before,
+.pie#red2:nth-of-type(1):after{
   background-color: #ff0000;
 }
 
-.pie:nth-of-type(1):before,
-.pie:nth-of-type(1):after#orange2{
+.pie#orange2#orange2:nth-of-type(1):before,
+.pie#orange2:nth-of-type(1):after{
   background-color: #ffa500;
 }
 
-.pie:nth-of-type(1):before,
-.pie:nth-of-type(1):after#green2{
+.pie#green2:nth-of-type(1):before,
+.pie#green2:nth-of-type(1):after{
   background-color: #00cc00;
 }
 
