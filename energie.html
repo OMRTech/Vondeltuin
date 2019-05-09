@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/piecharts.css">
+  <title>Vondeltuin | OMRT</title>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script>
+  $(document).ready(function(){
+      $(".show1").click(function() {
+        $(".drop1").toggle();
+      });
+      $(".show2").click(function() {
+        $(".drop2").toggle();
+      });
+      $(".show3").click(function() {
+        $(".drop3").toggle();
+      });
+      $(".show4").click(function() {
+        $(".drop4").toggle();
+      });
+      $(".show5").click(function() {
+        $(".drop5").toggle();
+      });
+    });
+  </script>
+</head>
+  <body>
+
+    <nav>
+            <a href="http://omrt.tech"><img class="logo" src="./images/OMRT_Logo_Vondeltuin.png"></a>
+            <ul>
+              <!-- # veranderen in pagina.html DIT IS VARIANT 3!!!  -->
+              <li><a href="index.html">Variant 1</a></li>
+              <li><a href="variant2.html">Variant 2</a></li>
+              <li><a href="variant3.html">Variant 3</a></li>
+              <li><a href="variant4.html">Variant 4</a></li>
+              <li><a href="variant5.html">Variant 5</a></li>
+              <li id="logo2"><a href="https://www.amsterdam.nl/"><img class="logo2" src="./images/logo-gemeente-amsterdam.png"></a></li>
+            </ul>
+
+
+        </nav>
+
+    <div class="container">
+      <div class="grid">
+
+      <!-- two upper cells, image and information-->
+      <div class="one chartwrapper">
+        <div class="wrapper">
+          <div class="pie start-0 end-8" id="red2"></div>
+          <div class="pie big start-8 end-92"></div>
+          <div class="pie over"><span id="red1">8%</span></div>
+        </div>
+      </div>
+
+      <div class="two">
+        <h1><p>Energie</p></h1>
+        <p id="info">info over energie</p>
+        <table id="table">
+          <tr>
+            <th>lijst met energie</th>
+            <th id="raam">?</th>
+          </tr>
+          <tr>
+            <th>lijst met energie</th>
+            <th id="raam">?</th>
+          </tr>
+          <tr>
+            <th>lijst met energie</th>
+            <th id="raam">?</th>
+          </tr>
+          <tr>
+            <th>lijst met energie</th>
+            <th id="raam">?</th>
+          </tr>
+        </table>
+      </div>
+
+<!-- 8 cells with all diff type of info-->
+      <div class="energie">
+        <div class="show1">
+          <h1><p>Energie</p></h1>
+          <div class="wrapper">
+            <div class="pie start-0 end-8" id="red2"></div>
+            <div class="pie big start-8 end-92"></div>
+            <div class="pie over"><span id="red1">8%</span></div>
+          </div>
+         <div class="drop1" style="display: none;">
+           <table id="info"><tr>
+             <th>Warmtelast (kWh/yr)</th>
+             <th>19.386</th>
+           </tr>
+           <tr>
+             <th>Koellast (kWh/yr)</th>
+             <th>3827</th>
+           </tr>
+           <tr>
+             <th>Energie vraag (kWh/yr)</th>
+             <th>23.213</th>
+           </tr></table>
+         </div>
+      </div>
+      </div>
+
+      <div class="materiaal">
+        <div class="show2">
+          <h1><p>Materiaal</p></h1>
+          <div class="wrapper">
+            <div class="pie big start-0 end-50"></div>
+            <div class="pie start-50 end-50"></div>
+            <div class="pie over"><span>tbd</span></div>
+          </div>
+        </div>
+         <div class="drop2" style="display: none;">
+           <table id="info"><tr>
+             <th>MPG score</th>
+             <th>tbd</th>
+           </tr>
+           <tr>
+             <th>Madaster biobased</th>
+             <th>tbd</th>
+           </tr>
+           <tr>
+             <th>Madaster reusable</th>
+             <th>tbd</th>
+           </tr></table>
+         </div>
+      </div>
+
+      <div class="comfort">
+        <div class="show3">
+          <h1><p>Comfort</p></h1>
+          <div class="wrapper">
+            <div class="pie start-0 end-34" id="orange2"></div>
+            <div class="pie big start-34 end-66"></div>
+            <div class="pie over"><span id="orange1">34%</span></div>
+          </div>
+        </div>
+         <div class="drop3" style="display: none;">
+           <table id="info"><tr>
+             <th>Aantal lux</th>
+             <th>231</th>
+           </tr>
+           <tr>
+             <th>Temperatuur</th>
+             <th>13.7min 32.9max 20.9gem</th>
+           </tr></table>
+         </div>
+       </div>
+
+      <div class="water">
+        <div class="show4">
+          <h1><p>Water</p></h1>
+          <div class="wrapper">
+            <div class="pie big start-0 end-50"></div>
+            <div class="pie start-50 end-50"></div>
+            <div class="pie over"><span>tbd</span></div>
+          </div>
+        </div>
+         <div class="drop4" style="display: none;">
+            <table id="info"><tr>
+              <th>Watergebruik 25p</th>
+              <th>634 m3/yr</th>
+            </tr>
+            <tr>
+              <th>Neerslag opgevangen</th>
+              <th>tbd</th>
+            </tr>
+            <tr>
+              <th>Tekort/Overschot</th>
+              <th>tbd</th>
+            </tr></table>
+         </div>
+      </div>
+
+      <div class="proces">
+        <div class="show5">
+          <h1><p>Proces</p></h1>
+          <div class="wrapper">
+            <div class="pie start-0 end-43" id="orange2"></div>
+            <div class="pie big start-43 end-57"></div>
+            <div class="pie over"><span id="orange1">43%</span></div>
+          </div>
+        </div>
+         <div class="drop5" style="display: none;">
+           <table id="info"><tr>
+             <th id="done">Iniatie project</th>
+           </tr>
+           <tr>
+             <th id="done">Schets ontwerp</th>
+           </tr>
+           <tr>
+             <th id="done">Voorlopig ontwerp</th>
+           </tr>
+           <tr>
+             <th>Definitief ontwerp</th>
+           </tr>
+           <tr>
+             <th>Technisch ontwerp</th>
+           </tr>
+           <tr>
+             <th>Realisatie fase</th>
+           </tr>
+           <tr>
+             <th>Beheer fase</th>
+           </tr>
+         </table>
+         </div>
+       </div>
+
+      </div>
+    </div>
+
+  </body>
+
+  </html>
