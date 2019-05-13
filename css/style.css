@@ -12,6 +12,12 @@ h1 {
   font-size: 24px;
   color: #1a2659;
 }
+
+h2 {
+  font-size: 18px;
+  color: #1a2659;
+}
+
 p{
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -59,7 +65,7 @@ table tr th#done{
   grid-auto-rows: auto;
   grid-gap: 1em;
   align-items: center;
-  text-align: center; 
+  text-align: center;
 }
 
 #left {
