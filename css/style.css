@@ -53,6 +53,25 @@ table tr th#done{
   color: #1a2659;
 }
 
+.navgrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1em;
+  align-items: center;
+  text-align: center;
+  border-bottom: 4px solid black;
+  background: green;
+}
+
+#left {
+  grid-column: 1;
+}
+
+#right{
+  grid-column: 5;
+}
+
 /* nav menu*/
 nav{
   width: 100%;
