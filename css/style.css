@@ -72,6 +72,14 @@ table tr th#done{
   grid-column: 1;
 }
 
+#middle{
+  grid-column: 2;
+}
+
+#rechts{
+  grid-column: 3;
+}
+
 #right{
   grid-column: 5;
   float: left;
@@ -80,6 +88,12 @@ table tr th#done{
 
 /* nav menu*/
 nav{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1em;
+  align-items: center;
+  text-align: center;
   width: 100%;
   height: 150px;
   background-color: #fff;
