@@ -25,6 +25,8 @@ p{
 #round{
   border-radius: 50%;
   object-fit: scale-down;
+  width: 100;
+  height: 50;
 }
 
 #page{
