@@ -112,7 +112,7 @@ ul li {
 } */
 
 ul li#logo2{
-  float: right;
+  float: center;
   padding: 0 75px;
 }
 
