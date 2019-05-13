@@ -88,6 +88,14 @@ nav{
   background-color: #fff;
 }
 
+@media screen and (max-width: 900px) {
+  nav {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+ }
+} 
+
 nav a{
   float: left;
 }
