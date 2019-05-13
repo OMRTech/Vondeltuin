@@ -68,15 +68,15 @@ table tr th#done{
   text-align: center;
 }
 
-#left {
+.navgrid#left {
   grid-column: 1;
 }
 
-#middle{
+.navgrid#middle{
   grid-column: 2 / 4;
 }
 
-#right{
+.navgrid#right{
   grid-column: 5;
   float: middle;
   padding-right: 15px;
