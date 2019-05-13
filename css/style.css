@@ -83,6 +83,7 @@ table tr th#done{
 #right{
   grid-column: 5;
   float: center;
+  padding-right: 75px;
 }
 
 /* nav menu*/
