@@ -179,5 +179,25 @@ ul li a {
   grid-row: 1;
 }
 
+.var1{
+  grid-column: 1;
+  grid-row: 2;
+}
+.var2{
+  grid-column: 2;
+  grid-row: 2;
+}
+.var3{
+  grid-column: 3;
+  grid-row: 2;
+}
+.var4{
+  grid-column: 4;
+  grid-row: 2;
+}
+.var5{
+  grid-column: 5;
+  grid-row: 2;
+}
 
 }
