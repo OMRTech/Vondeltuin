@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 16px;
   color: #1a2659;
 }
 
@@ -74,6 +74,8 @@ table tr th#done{
 
 #right{
   grid-column: 5;
+  vertical-align: top;
+  float: center;
 }
 
 /* nav menu*/
