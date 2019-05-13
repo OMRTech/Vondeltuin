@@ -111,7 +111,7 @@ ul li {
 } */
 
 ul li#logo2{
-  float: right;
+  float: center;
   padding: 0 75px;
 }
 
@@ -133,8 +133,7 @@ ul li a {
 
 .logo2{
   display: inline-block;
-  vertical-align: middle;
-  float: left;
+  vertical-align: center;
   width: 100px;
   height: 30px;
 }
