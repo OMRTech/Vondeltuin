@@ -231,12 +231,13 @@ ul li a {
   text-align: center;
 }
 
-/* .logo2{
+#logo2{
   display: inline-block;
-  vertical-align: center;
+  vertical-align: right;
   float: right;
-  width: 100px;
-  height: 30px;
-} */
+  width: auto;
+  height: auto;
+  max-width: 50px;
+}
 
 }
