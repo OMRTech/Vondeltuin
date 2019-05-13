@@ -137,7 +137,7 @@ ul li a {
   .grid {
     grid-gap: var(--grid-gap);
 }
-.chart-wrapper {
+.chartwrapper {
   background: #fff;
   border: 1px solid #e2e2e2;
   border-radius: 3px;
