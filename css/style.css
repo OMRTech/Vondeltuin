@@ -112,10 +112,6 @@ ul li {
   padding: 0 100px;
 } */
 
-ul li#logo2{
-  float: center;
-  padding: 0 75px;
-}
 
 ul li a {
   display: inline;
@@ -131,14 +127,6 @@ ul li a {
   vertical-align: top;
   width: 250px;
   height: 150px;
-}
-
-.logo2{
-  display: inline-block;
-  vertical-align: center;
-  float: right;
-  width: 100px;
-  height: 30px;
 }
 
 .column1{
@@ -232,5 +220,23 @@ ul li a {
   grid-column: 5;
   grid-row: 2;
 }
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+/* .logo2{
+  display: inline-block;
+  vertical-align: center;
+  float: right;
+  width: 100px;
+  height: 30px;
+} */
 
 }
