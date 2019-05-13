@@ -78,8 +78,7 @@ table tr th#done{
 
 .navgrid#right{
   grid-column: 5;
-  float: middle;
-  padding-right: 15px;
+  float: center;
 }
 
 /* nav menu*/
