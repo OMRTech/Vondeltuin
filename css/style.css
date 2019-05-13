@@ -75,6 +75,7 @@ table tr th#done{
 #right{
   grid-column: 5;
   float: left;
+  padding-right: 15px;
 }
 
 /* nav menu*/
