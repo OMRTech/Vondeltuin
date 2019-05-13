@@ -102,10 +102,10 @@ ul li a {
 
 .logo2{
   display: inline-block;
-  vertical-align: middle;
-  float: left;
-  width: 250px;
-  height: 75px;
+  vertical-align: top;
+  float: right;
+  width: 50px;
+  height: 15px;
 }
 
 .column1{
