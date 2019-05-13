@@ -59,9 +59,7 @@ table tr th#done{
   grid-auto-rows: auto;
   grid-gap: 1em;
   align-items: center;
-  text-align: center;
-  border-bottom: 4px solid black;
-  background: green;
+  text-align: center; 
 }
 
 #left {
