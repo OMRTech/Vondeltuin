@@ -68,15 +68,11 @@ table tr th#done{
   text-align: center;
 }
 
-.navgrid#left {
+#left {
   grid-column: 1;
 }
 
-.navgrid#middle{
-  grid-column: 2 / 4;
-}
-
-.navgrid#right{
+#right{
   grid-column: 5;
   float: center;
 }
@@ -87,14 +83,6 @@ nav{
   height: 150px;
   background-color: #fff;
 }
-
-@media screen and (max-width: 900px) {
-  nav {
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-gap: 1em;
- }
-} 
 
 nav a{
   float: left;
