@@ -73,7 +73,7 @@ table tr th#done{
 }
 
 #middle{
-  grid-column: 3;
+  grid-column: 2 / 4;
 }
 
 #right{
