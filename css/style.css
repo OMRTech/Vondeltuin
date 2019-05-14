@@ -1,5 +1,5 @@
 :root {
-  --grid-gap: 15px;
+  --grid-gap: 5px;
   --grid-gap: 5px;
 }
 
@@ -7,6 +7,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   font-size: 28px;
@@ -221,7 +223,7 @@ ul li a {
   grid-row: 2;
 }
 
-.footer {
+#footer {
   position: absolute;
   right: 0;
   bottom: 0;
