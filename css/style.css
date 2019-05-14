@@ -128,7 +128,7 @@ ul li a {
 }
 .logo2{
   width: 100px;
-  text-align: right;
+  float: right;
 }
 
 .column1{
