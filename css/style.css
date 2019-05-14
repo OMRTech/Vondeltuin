@@ -224,13 +224,14 @@ ul li a {
 }
 
 #footer {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+  height: 10px;
 }
 
 #logo2{
