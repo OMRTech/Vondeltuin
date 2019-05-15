@@ -101,7 +101,7 @@ ul{
 ul li {
   list-style: none;
   display: inline-block;
-  float: center;
+  float: left;
   line-height: 150px;
 }
 
