@@ -41,7 +41,7 @@
 
 .pie#green2:nth-of-type(1):before,
 .pie#green2:nth-of-type(1):after{
-  background-color: #00cc00;
+  background-color: #008000;
 }
 
 .pie:nth-of-type(2):before,
