@@ -27,6 +27,10 @@ p{
   border-radius: 50%;
 }
 
+#fake{
+  color: #ffa500;
+}
+
 #page{
   display: inline;
   text-decoration: none;
