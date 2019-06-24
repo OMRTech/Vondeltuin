@@ -1,9 +1,16 @@
+/* this css file is the style script of the piecharts */
+/* got the code from https://codepen.io/thiennhat/pen/oXPVXL */
+/* made a few changes */
+
+/* size of the wrapper and other properties */
 .wrapper {
   height: 100px;
   width: 100px;
   display: inline-block;
   position: relative;
 }
+
+/* properties of the pie */
 .pie {
   position: absolute;
   width: 50px;
@@ -17,6 +24,7 @@
   background-color: #1a2659;
 } */
 
+/* id's with color used for the writing in the middle */
 #red1{
   color: #ff0000;
 }
@@ -29,6 +37,7 @@
   color: #008000;
 }
 
+/* colors used with the right percentages */
 .pie#red2:nth-of-type(1):before,
 .pie#red2:nth-of-type(1):after{
   background-color: #ff0000;

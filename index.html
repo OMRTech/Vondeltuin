@@ -9,6 +9,7 @@
   <title>Vondeltuin | OMRT</title>
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   <script src="https://d3js.org/d3.v5.min.js"></script>
+  <!-- this was to mautomise the info (does not work) -->
   <!-- <script>
     d3.csv("/data/Variant1.csv", function(data) {
           console.log(data[0]);
@@ -35,6 +36,7 @@
   </script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script>
+  // script for the dropdown option for the parameters
   $(document).ready(function(){
       $(".show1").click(function() {
         $(".drop1").toggle();
@@ -55,7 +57,7 @@
   </script>
 </head>
   <body>
-
+<!-- nav menu on top of page with logo of omrt (maybe insert Vondeltuin logo)-->
     <nav>
             <a href="http://omrt.tech"><img class="logo" src="./images/OMRT_Logo_Vondeltuin.png"></a>
             <ul>
@@ -70,6 +72,7 @@
 
         </nav>
 
+<!-- grid to make lay out of page -->
     <div class="container">
       <div class="grid">
 
@@ -117,15 +120,23 @@
         </table>
       </div>
 
-<!-- 8 cells with all diff type of info-->
+<!-- 5 cells with all diff type of info (all the parameters)-->
       <div class="energie">
         <div class="show1">
+          <!-- clickable title to go to parameter page -->
           <h1><a id="page" href="energie.html">Energie</a></h1>
+          <!-- class for the pie chart -->
           <div class="wrapper">
+            <!-- if the percentages is under 50 the first is "pie start" and the second "pie big start" -->
+            <!-- if over 50% then first "pie big start" and second "pie start" -->
+            <!-- give right color id: <25% red, 25%-50% orange other green -->
+            <!-- first give start 0 and ens-the right percentage -->
+            <!-- second start-right percentage and end-(100-percentage) -->
             <div class="pie start-0 end-8" id="red2"></div>
             <div class="pie big start-8 end-92"></div>
             <div class="pie over"><span id="red1">8%</span></div>
           </div>
+          <!-- dropdown info of the parameter -->
          <div class="drop1" style="display: none;">
            <table id="info"><tr>
              <th>Warmtelast (kWh/yr)</th>
@@ -145,13 +156,16 @@
 
       <div class="materiaal">
         <div class="show2">
+          <!-- clickable title to the parameter page -->
           <h1><a id="page" href="materiaal.html">Materiaal</a></h1>
+          <!-- piechart class -->
           <div class="wrapper">
             <div class="pie start-0 end-37" id="orange2"></div>
             <div class="pie big start-37 end-63"></div>
             <div class="pie over"><span id="orange1">37%</span></div>
           </div>
         </div>
+        <!-- dropdown info of the parameter -->
          <div class="drop2" style="display: none;">
            <table id="info"><tr>
              <th>MPG score</th>
@@ -170,13 +184,16 @@
 
       <div class="comfort">
         <div class="show3">
+          <!-- clickable title to go to parameter page -->
           <h1><a id="page" href="comfort.html">Comfort</a></h1>
+          <!-- piechart class -->
           <div class="wrapper">
             <div class="pie start-0 end-34" id="orange2"></div>
             <div class="pie big start-34 end-66"></div>
             <div class="pie over"><span id="orange1">34%</span></div>
           </div>
         </div>
+        <!-- dropdown info for the parameter -->
          <div class="drop3" style="display: none;">
            <table id="info"><tr>
              <th>Aantal lux</th>
@@ -191,13 +208,16 @@
 
       <div class="water">
         <div class="show4">
+          <!-- clickable title to go to parameter page -->
           <h1><a id="page" href="water.html">Water</a></h1>
+          <!-- pie chart class -->
           <div class="wrapper">
             <div class="pie start-0 end-47" id="orange2"></div>
             <div class="pie big start-47 end-63"></div>
             <div class="pie over"><span id="orange1">47%</span></div>
           </div>
         </div>
+        <!-- dropdown info of the parameter -->
          <div class="drop4" style="display: none;">
             <table id="info"><tr>
               <th>Watergebruik 25p</th>
@@ -216,13 +236,16 @@
 
       <div class="proces">
         <div class="show5">
+          <!-- clickable title to go to parameter page -->
           <h1><a id="page" href="proces.html">Proces</a></h1>
+          <!-- pie chart class -->
           <div class="wrapper">
             <div class="pie start-0 end-43" id="orange2"></div>
             <div class="pie big start-43 end-57"></div>
             <div class="pie over"><span id="orange1">43%</span></div>
           </div>
         </div>
+        <!-- dropdown info of the parameter -->
          <div class="drop5" style="display: none;">
            <table id="info"><tr>
              <th id="done">Initiatie project</th>
@@ -257,6 +280,7 @@
 
     </div>
 
+<!-- footer for the gemeente amsterdam logo -->
     <footer id="footer"> <img class="logo2" src="./images/logo-gemeente-amsterdam.png"></footer>
 
 
