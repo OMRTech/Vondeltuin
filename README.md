@@ -5,8 +5,11 @@ link: https://omrtech.github.io/Vondeltuin/#
 ## Mapping
 
 css - map with the style files
+
 data - data of the variaten pages to automate it
+
 images - images used on the site
+
 lib - libraries used for the site
 
 #### Info for the pages
