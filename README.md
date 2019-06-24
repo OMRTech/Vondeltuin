@@ -2,7 +2,7 @@
 
 link: https://omrtech.github.io/Vondeltuin/#
 
-## Mapping
+### Documentation
 
 css - map with the style files
 
