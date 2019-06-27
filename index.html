@@ -52,9 +52,9 @@
 </head>
   <body>
     <nav>
+      <!-- nav menu on top of page with logo of omrt (maybe insert Vondeltuin logo)-->
             <a href="http://omrt.tech"><img class="logo" src="./images/OMRT_Logo_Vondeltuin.png"></a>
             <ul>
-              <!-- # veranderen in pagina.html DIT IS VARIANT 3!!!  -->
               <li><a href="index.html">Variant 1</a></li>
               <li><a href="variant2.html">Variant 2</a></li>
               <li><a href="variant3.html">Variant 3</a></li>
@@ -66,67 +66,77 @@
       <div class="grid">
       <!-- two upper cells, image and information-->
       <div class="one">
+        <!-- here goes the image of the variant (needs to go in to the images folder) -->
         <img src="./images/Variant1.png">
       </div>
       <div class="two">
         <h1><p>Variant 1</p></h1>
         <p id="info">Groot raamoppervlak zonder lamellen.</p>
+        <!-- table with the variant info -->
         <table id="table">
           <tr>
             <th>Raampercentage</th>
-            <th id="raam">27%</th>
+            <th id="raam">27%</th><!-- VARIABLES -->
           </tr>
           <tr>
             <th>Materiaal muur</th>
-            <th id="matmuur">Rammed Earth</th>
+            <th id="matmuur">Rammed Earth</th><!-- VARIABLES -->
           </tr>
           <tr>
             <th>Materiaal vloer</th>
-            <th id="matvloer">Beton</th>
+            <th id="matvloer">Beton</th><!-- VARIABLES -->
           </tr>
           <tr>
             <th>Materiaal dak</th>
-            <th id="matdak">Staalplaat</th>
+            <th id="matdak">Staalplaat</th><!-- VARIABLES -->
           </tr>
           <tr>
             <th>Ventilatietype</th>
-            <th id="vent">Natuurlijk</th>
+            <th id="vent">Natuurlijk</th><!-- VARIABLES -->
           </tr>
           <tr>
             <th>Rc-waarde muur</th>
-            <th id="rcmuur">9,95</th>
+            <th id="rcmuur">9,95</th><!-- VARIABLES -->
           </tr>
           <tr>
             <th>Rc-waarde vloer</th>
-            <th id="rcvloer">4,17</th>
+            <th id="rcvloer">4,17</th><!-- VARIABLES -->
           </tr>
           <tr>
             <th>Rc-waarde dak</th>
-            <th id="rcdak">3,80</th>
+            <th id="rcdak">3,80</th><!-- VARIABLES -->
           </tr>
         </table>
       </div>
-<!-- 8 cells with all diff type of info-->
+<!-- 5 cells with all diff type of info-->
       <div class="energie">
         <div class="show1">
+          <!-- clickable title to go to parameter page -->
           <h1><a id="page" href="energie.html">Energie</a></h1>
+          <!-- class for the pie chart -->
           <div class="wrapper">
+            <!-- if the percentages is under 50 the first is "pie start" and the second "pie big start" -->
+            <!-- if over 50% then first "pie big start" and second "pie start" -->
+            <!-- give right color id: <25% red, 25%-50% orange other green -->
+            <!-- first give start 0 and ens-the right percentage -->
+            <!-- second start-right percentage and end-(100-percentage) -->
             <div class="pie start-0 end-8" id="red2"></div>
             <div class="pie big start-8 end-92"></div>
             <div class="pie over"><span id="red1">8%</span></div>
           </div>
+          <!-- dropdown info of the parameter -->
          <div class="drop1" style="display: none;">
            <table id="info"><tr>
              <th>Warmtelast (kWh/yr)</th>
-             <th>19.386</th>
+             <th>19.386</th><!-- VARIABLES -->
            </tr>
            <tr>
              <th>Koellast (kWh/yr)</th>
-             <th>3827</th>
+             <th>3827</th><!-- VARIABLES -->
            </tr>
            <tr>
              <th>Energie vraag (kWh/yr)</th>
-             <th>23.213</th>
+             <th>23.213</th><!-- VARIABLES -->
            </tr></table>
          </div>
       </div>
@@ -143,15 +153,15 @@
          <div class="drop2" style="display: none;">
            <table id="info"><tr>
              <th>MPG score</th>
-             <th>tbd</th>
+             <th>tbd</th><!-- VARIABLES -->
            </tr>
            <tr>
              <th>Madaster biobased</th>
-             <th>tbd</th>
+             <th>tbd</th><!-- VARIABLES -->
            </tr>
            <tr>
              <th>Madaster reusable</th>
-             <th>tbd</th>
+             <th>tbd</th><!-- VARIABLES -->
            </tr></table>
          </div>
       </div>
@@ -167,11 +177,11 @@
          <div class="drop3" style="display: none;">
            <table id="info"><tr>
              <th>Aantal lux</th>
-             <th>231</th>
+             <th>231</th><!-- VARIABLES -->
            </tr>
            <tr>
              <th>Temperatuur</th>
-             <th>13.7min 32.9max 20.9gem</th>
+             <th>13.7min 32.9max 20.9gem</th><!-- VARIABLES -->
            </tr></table>
          </div>
        </div>
@@ -211,6 +221,7 @@
         </div>
          <div class="drop5" style="display: none;">
            <table id="info"><tr>
+             <!-- if proces is done add id="done" -->
              <th id="done">Initiatie project</th>
            </tr>
            <tr>
